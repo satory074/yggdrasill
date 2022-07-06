@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: "Muli", sans-serif;
+}
+
+.menu {
+  font-weight: 100;
+  background: #efefef;
+  width: 120px;
+  height: 100%;
+  margin-top: 0px;
+  padding-left: 50px;
+  position: fixed;
+  box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  top: 0px;
+  left: -100px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  color: #222;
+}
+.menu:hover, .menu:focus {
+  transform: translate3d(100px, 0, 0);
+  -webkit-animation-timing-function: 1s ease-in;
+          animation-timing-function: 1s ease-in;
+}
+.menu .nav {
+  font-weight: 100;
+}
+.menu .nav li {
+  padding-bottom: 30px;
+  list-style-type: none;
+}
+.menu .nav li a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+.menu .nav li a:hover {
+  color: #aaa;
+}/*# sourceMappingURL=sidebar.css.map */
